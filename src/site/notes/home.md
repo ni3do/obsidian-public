@@ -4,4 +4,5 @@
 
 # Home 🌎
 ## Current Projects
-* [[eth/23FS/cil/project/CIL Trained Models\|CIL Trained Models]]
+* [[cil-trained-models \| CIL Trained Models]]
+* [[cil-theory-overview \| CIL Theory Overview]]

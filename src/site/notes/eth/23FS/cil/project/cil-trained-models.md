@@ -1,8 +1,8 @@
 ---
-{"dg-publish":true,"permalink":"/eth/23-fs/cil/project/cil-trained-models/","created":"","updated":""}
+{"dg-publish":true,"permalink":"/eth/23-fs/cil/project/cil-trained-models/","tags":["cil-project"],"created":"","updated":""}
 ---
 
-![model_plot.png](/img/user/eth/23FS/cil/project/model_plot.png)
+![[model_plot.png \| 500]] 
 | File                                                                                                                      | model-name    | encoder-name     | epochs | dice-loss | trained-by |
 | ------------------------------------------------------------------------------------------------------------------------- | ------------- | ---------------- | ------ | --------- | ---------- |
 | [[eth/23FS/cil/project/trained-models/DeepLabV3Plus-efficientnet-b7-imagenet\|DeepLabV3Plus-efficientnet-b7-imagenet]] | DeepLabV3Plus | efficientnet-b7  | 30     | 0.174434  | stkramer   |

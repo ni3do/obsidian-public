@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/eth/23-fs/cil/cil-trained-models/","tags":["gardenEntry"]}
+{"dg-publish":true,"permalink":"/eth/23-fs/cil/cil-trained-models/","tags":["gardenEntry"],"created":"","updated":""}
 ---
 
 | File                                                                                                              | model-name    | encoder-name     | epochs | dice-loss | trained-by |

@@ -4,4 +4,4 @@
 
 # Home 🌎
 ## Current Projects
-* [[eth/23FS/cil/CIL Trained Models\|CIL Trained Models]]
+* [[eth/23FS/cil/project/CIL Trained Models\|CIL Trained Models]]

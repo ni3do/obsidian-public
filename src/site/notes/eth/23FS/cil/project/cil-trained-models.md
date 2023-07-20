@@ -3,7 +3,8 @@
 ---
 
 # Overview of Models for CIL Project
-![[model_plot.png \| 500x400]] 
+![model_plot.png| 500x400](/img/user/eth/23FS/cil/project/model_plot.png) 
+
 
 | File                                                                                                                      | model-name    | encoder-name     | epochs | dice-loss | trained-by |
 | ------------------------------------------------------------------------------------------------------------------------- | ------------- | ---------------- | ------ | --------- | ---------- |

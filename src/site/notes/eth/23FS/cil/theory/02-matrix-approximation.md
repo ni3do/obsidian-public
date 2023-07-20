@@ -40,3 +40,54 @@ Mean rating per user/item
 This lets us center the data:
 ![02-data-centering.png](/img/user/eth/23FS/cil/theory/assets/02-data-centering.png)
 ### Variance Normalization
+$\mu = \textbf{E}[X]$
+$\sigma^2 = \textbf{Var}[X]$
+Then the noramlized scores or z-scores are:
+$$Z = \frac{X - \mu}{\sigma}$$
+## Rank 1 Model
+>[!question] What is the simplest - yet interesting - matrix model that couples entires in each row and each column?
+>> [!todo] The outer product model
+
+Bi-linear model:
+$$\begin{align}
+A &\approx \mathbf{uv}^T, \quad u \in \mathbb{R}^n, v \in \mathbb{R}^m \\
+a_{i j} &\approx u_i v_j
+\end{align}$$
+Non-identifiability: scalar $\alpha \neq 0$: $\mathbf{u} \leftarrow \alpha \mathbf{u}, \mathbf{v} \leftarrow \mathbf{(1/\alpha)\mathbf{v}}$
+### Squared Error?!?
+> [!danger] What is Hadamard Product?
+
+$\mathbf{uv}^T$ is a **rank 1** matrix:
+* can be represented as an outer product of two verctors
+* every pair of vectors defines a rank 1 matrix via their outer product
+
+### Scalar Problem
+$$l(u,v) = \frac{1}{2}(a - uv)^2, \quad u,v \in \mathbb{R}$$
+This induces following gradient field:
+
+![02-gradient-field.png| 500](/img/user/eth/23FS/cil/theory/assets/02-gradient-field.png)
+
+Minimas: **hyperbola with two branches** (red lines)
+Use gradient descent.
+#### Saddle point
+Origin is a saddle point:
+![[02-origin-saddle-point.png \| 600]]
+
+#### Characteristic Polynomial
+$$det(\lambda\mathbf{I} - \nabla^2l(0,0) = \lambda^2 -a^2 = (\lambda - a)(\lambda + a)$$
+The Hessian is indefinite at (0,0) as it has eigenvalues $\pm a$
+## Convexity Definition
+> [!tip] A set in a vector space or affine space is convex if the line segment connecting any two points in the set is also in the set
+
+>[!tip] A function $f$ is convex over a domain $R$, if for all $x,y \in R$ $$f(tx + (1-t)y) \leq tf(x) + (1-t)f(y), \quad \forall t \in [0;1]$$
+
+If $f$ is differentiable, convexity is equivalent to the condition:
+$$f(x) \geq f(y) + \nabla f(y) (x-y), \quad \forall x,y \in R$$
+if $f$ is twice differentiable, convexity on a convex domain $R$ is equivalent to the condition:
+$$\nabla^2 f(x) \succeq \mathbf{0}, \quad \forall x \in \mathbf{Int}(R)$$
+
+Our scalar problem is non-convex (exception: $a = 0$), as there is a saddle point at the origin.
+>[!tip] Convexity is a very fundamental property: demarcation line in optimization between tractable and (possibly) intractable problems
+
+## Gradients
+

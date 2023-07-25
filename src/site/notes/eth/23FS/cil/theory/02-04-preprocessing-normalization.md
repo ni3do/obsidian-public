@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/eth/23-fs/cil/theory/02-04-preprocessing-normalization/","tags":["eth/cil/theory"],"created":"","updated":""}
 ---
 
-## Preprocessing / Normalization
+# Preprocessing / Normalization
 ### Centering
 >[!tip] make rows/columns more comparable and subtract out rating bias
 

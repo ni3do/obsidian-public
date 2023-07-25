@@ -57,7 +57,6 @@ $\Omega$ observation matrix, where $w_{i j} = 1$ iff $a_{i j}$ is observed
 </div></div>
 
 
-
 <div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/eth/23-fs/cil/theory/02-04-preprocessing-normalization/" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
 
 $<div class="markdown-embed-title">
@@ -68,7 +67,7 @@ $<div class="markdown-embed-title">
 
 
 
-## Preprocessing / Normalization
+# Preprocessing / Normalization
 ### Centering
 >[!tip] make rows/columns more comparable and subtract out rating bias
 
@@ -83,7 +82,6 @@ Then the noramlized scores or z-scores are:
 $Z = \frac{X - \mu}{\sigma}$
 
 </div></div>
-
 
 
 <div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/eth/23-fs/cil/theory/02-06-convextiy-definition/" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
@@ -110,7 +108,6 @@ Our scalar problem is non-convex (exception: $a = 0$), as there is a saddle poin
 >[!tip] Convexity is a very fundamental property: demarcation line in optimization between tractable and (possibly) intractable problems
 
 </div></div>
-
 
 
 <div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/eth/23-fs/cil/theory/02-07-gradients/" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
@@ -173,7 +170,6 @@ x(t) = \frac{ae^{2at}}{e^{2at}-1+(a/c)} = a + \frac{ac - a^2}{ce^{2at} + a - c}$
 ![eth/23FS/cil/theory/assets/ode-solution.png](/img/user/eth/23FS/cil/theory/assets/ode-solution.png)
 
 </div></div>
-
 
 <div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/eth/23-fs/cil/theory/02-09-fully-observed-rank-one-model/" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
 

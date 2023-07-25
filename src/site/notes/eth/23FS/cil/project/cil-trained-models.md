@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/eth/23-fs/cil/project/cil-trained-models/","tags":["eth,cil-project"],"created":"","updated":""}
+{"dg-publish":true,"permalink":"/eth/23-fs/cil/project/cil-trained-models/","tags":["eth/cil/project"],"created":"","updated":""}
 ---
 
 # Overview of Models for CIL Project

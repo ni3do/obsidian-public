@@ -28,5 +28,5 @@ The next step was to enlarge the Dataset. We did this in multiple steps, which g
 
 Current data on final models. These are trained on the wachterberg-street65 and wachterberg-street90 datasets. 
 ## Submission
-To create our submission we use test time augmentation
+To create our submission we use test time augmentation.
 ### !!TODO!!!

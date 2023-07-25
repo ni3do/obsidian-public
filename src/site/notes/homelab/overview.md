@@ -5,4 +5,6 @@
 # Homelab Overview
 ## All available services
 * [[plex \| Plex]]
+* [[homelab/services/overseerr\| Overseerr]]
+* [[homelab/services/tandoor\| Tandoor]]
 * 

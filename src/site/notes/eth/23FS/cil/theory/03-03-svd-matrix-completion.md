@@ -5,7 +5,7 @@
 # SVD and Matrix Completion
 We generalize the simple rank 1 model to a rank $k$ approximation.
 We do this by additive superposition of $k$ rank 1 matrices.
-If all matrix entries are completely obeserved, the solution is constructively given by the [[eth/23FS/cil/theory/03-00-singular-value-decomposition\|SVD]].
+If all matrix entries are completely obeserved, the solution is constructively given by the [[knowledge/math/singular-value-decomposition\|SVD]].
 
 $k$ principal left singular vectors, paired with the respective right singular vector form outer products:
 $$

@@ -3,7 +3,7 @@
 ---
 
 # SVD and PCA
-[[eth/23FS/cil/theory/03-00-singular-value-decomposition\|SVD]] is intimately related to [[knowledge/eigendecomposition\|eigendecomposition]]
+[[knowledge/math/singular-value-decomposition\|SVD]] is intimately related to [[knowledge/eigendecomposition\|eigendecomposition]]
 * $A$ is square and symmetric: $U$ and $V$ have equal columns up to possible sign differences
 * if $A$ is [[knowledge/math/positive-semi-definit\|positive semi-definit]], then the SVD is equal to the [[knowledge/eigendecomposition\|eigendecomposition]]
 * Squares of $A$: $AA^T \in \mathbb{R}^{n \times n}$ as well as $A^TA \in \mathbb{R}^{m \times m}$: 

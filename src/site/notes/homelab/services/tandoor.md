@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/homelab/services/tandoor/","created":"","updated":""}
+{"dg-publish":true,"permalink":"/homelab/services/tandoor/","tags":["jarvis/media, jarvis/service"],"created":"","updated":""}
 ---
 
 # [Tandoor](https://recipes.siwachter.com)

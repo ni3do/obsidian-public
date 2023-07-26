@@ -17,4 +17,3 @@ $$
 
 >[!tip] SVD can be applied to the data matrix to identify the principal eigenvectors of the covariance matrix (PCA)
 
-

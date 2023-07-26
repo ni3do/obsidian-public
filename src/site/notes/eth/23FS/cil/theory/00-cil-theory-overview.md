@@ -5,3 +5,4 @@
 # CIL Theory Overview
 * [[eth/23FS/cil/theory/01-00-dimension-reduction\| Dimension Reduction]]
 * [[eth/23FS/cil/theory/02-00-matrix-approximation\| Matrix Approximation]]
+* [[eth/23FS/cil/theory/03-00-singular-value-decomposition\| Singular Value Decomposition]]

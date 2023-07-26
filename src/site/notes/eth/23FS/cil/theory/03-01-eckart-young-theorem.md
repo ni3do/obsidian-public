@@ -3,7 +3,7 @@
 ---
 
 # Eckart Young Theorem
->[!tip] By pruning the singular values below $\sigma_k$ in the SVD representation, we get an optimal rank $k$ approximation of a matrix
+>[!tip] By pruning the singular values below $\sigma_k$ in the [[knowledge/math/singular-value-decomposition\|SVD]] representation, we get an optimal rank $k$ approximation of a matrix
 >
 * Is fundamental to many low-rank approximation problems
 * This means that approximations for any $k$ can directly be read-off the SVD

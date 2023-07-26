@@ -148,3 +148,50 @@ $<div class="markdown-embed-title">
 
 </div></div>
 
+
+<div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/eth/23-fs/cil/theory/03-04-svd-with-imputation/" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
+
+$<div class="markdown-embed-title">
+
+# 03-04-svd-with-imputation
+
+</div>
+
+
+
+# SVD with Imputation
+Naive strategy:
+	1. estimate values for missing matrix elements (e.g. row or column mean)
+	2. impute them to create a complete matrix
+	3. run [[knowledge/math/singular-value-decomposition\|SVD]] to compute low rank approximation
+
+>[!warning] This is not a good idea
+
+If we have an incomplete observation, [[knowledge/math/singular-value-decomposition\|SVD]] is in general not applicable directly to compute low-rank approximations.
+
+
+</div></div>
+
+
+<div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/eth/23-fs/cil/theory/03-05-np-hard/" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
+
+$<div class="markdown-embed-title">
+
+# 03-05-np-hard
+
+</div>
+
+
+
+# NP Hardness
+Weighted [[knowledge/math/frobenius-norm\|Forbenius norm]] problem:
+$\hat{A}_k = \arg\min \left\{\sum_{i,j} (w_{i,j} a_{ij} - b_{ij})^2\right\}, \quad \text{rank}(B) = k$
+
+* special case: $w_{ij} = w_{ij} \in \{0,1\}$, **?!!? maybe $w_{ij} = w_{ji}$**
+This is [[knowledge/math/np-hard\|NP-hard]] even for $k=1$
+
+>[!tip] Low rank matrix reconstruction is NP hard and one has - in general - to resort to approximation algorithms. The completely observed case is special.
+
+
+
+</div></div>

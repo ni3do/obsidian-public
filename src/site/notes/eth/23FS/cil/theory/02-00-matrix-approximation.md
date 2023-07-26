@@ -210,7 +210,7 @@ $<div class="markdown-embed-title">
 
 
 # Eigenvector Equations
-By putting both [[eth/23FS/cil/theory/02-09-fully-observed-rank-one-model#Optimality Conditions\|optimality conditions]] together we get the *eigenvector equations*:
+By putting both [[eth/23FS/cil/theory/02-09-fully-observed-rank-one-model#Optimality Conditions\|optimality conditions]] together we get the **eigenvector equations**:
 $u \propto (AA^T)u, \quad v \propto (A^TA)v$
 $u$  should be proportional to the principal eigenvector of $AA^T$
 $v$  should be proportional to the principal eigenvector of $A^TA$

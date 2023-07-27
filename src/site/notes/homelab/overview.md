@@ -4,7 +4,7 @@
 
 # Homelab Overview
 ## All available services
-* [[plex \|Plex]] - Personal Streaming Service
+* [[homelab/services/plex\|Plex]] - Personal Streaming Service
 * [[homelab/services/overseerr\|Overseerr]] - Media Request tool for Plex
 * [[homelab/services/tautulli\|Tautulli]] - Plex Monitoring/Statistics
 * [[homelab/services/tandoor\|Tandoor]] - Recipe Manager

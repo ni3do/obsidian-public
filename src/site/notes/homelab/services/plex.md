@@ -8,11 +8,11 @@ Plex Media Server is a powerful media organization and streaming platform. It al
 ---
 
 ## Kubernetes Config
-Plex is deployed directly as a [[knowledge/kubernetes-deployment\|deployment]] using the [ghcr.io/linuxserver/plex](https://ghcr.io/linuxserver/plex) image and two [[knowledge/kubernetes-service\|services]] to expose it to the internet.
+Plex is deployed directly as a [[knowledge/computer-science/kubernetes/kubernetes-deployment\|deployment]] using the [ghcr.io/linuxserver/plex](https://ghcr.io/linuxserver/plex) image and two [[knowledge/computer-science/kubernetes/kubernetes-service\|services]] to expose it to the internet.
 
 ### Deployment
-* The [[knowledge/priority-class\|priority class]] is set to ``high-priority`` to ensure the best possible performance, as this is one of the most sensitive and crucial services.
-* ``securityContext`` is also set to use ``fsGroup: 1002`` as to not get any conflicts with the storage which resides on [[knowledge/zfs\|ZFS]] pools on the main proxmox instance. Further ```PGID``` and ```PUID``` variables are set to also match the ZFS pools.
+* The [[knowledge/computer-science/kubernetes/kubernetes-priority-class\|priority class]] is set to ``high-priority`` to ensure the best possible performance, as this is one of the most sensitive and crucial services.
+* ``securityContext`` is also set to use ``fsGroup: 1002`` as to not get any conflicts with the storage which resides on [[knowledge/computer-science/zfs\|ZFS]] pools on the main proxmox instance. Further ```PGID``` and ```PUID``` variables are set to also match the ZFS pools.
 * The container gets nvidia environment variables to be able to use the GPU.
 ```yml
 spec:
@@ -35,7 +35,7 @@ spec:
 					  value: "1002"
 ```
 ### Services
-Two services are used, one for [[knowledge/tcp|TCP]] and one for [[knowledge/udp|UDP]].  The two are equivalent except for the different ports (not all listed here). Both are ```LoadBalancer``` types and use the ```media-ip``` address
+Two services are used, one for [[knowledge/computer-science/networking/tcp|TCP]] and one for [[knowledge/computer-science/networking/udp|UDP]].  The two are equivalent except for the different ports (not all listed here). Both are ```LoadBalancer``` types and use the ```media-ip``` address
 ```yml
 kind: Service
 apiVersion: v1

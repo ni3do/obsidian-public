@@ -49,8 +49,8 @@ spec:
 		app: plex
 	ports:
 	- port: 32400
-	. targetPort: 32400
-	. name: pms-web
+	  targetPort: 32400
+	  name: pms-web
 	  protocol: TCP
 	type: LoadBalancer
 	loadBalancerIP: 192.168.0.122

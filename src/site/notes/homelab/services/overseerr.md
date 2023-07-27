@@ -8,10 +8,10 @@ Overseerr is a self-hosted service that allows users to manage and request conte
 ---
 
 ## Kubernetes Config
-Overseerr is deployed with a [[knowledge/kubernetes-deployment\|deployment]], [[knowledge/kubernetes-service\|service]] and an [[homelab/kubernetes-ingress\|ingress]]. The docker container is pulled from ```lscr.io/linuxserver/overseerr:latest```.
+Overseerr is deployed with a [[knowledge/computer-science/kubernetes/kubernetes-deployment\|deployment]], [[knowledge/computer-science/kubernetes/kubernetes-service\|service]] and an [[knowledge/computer-science/kubernetes/kubernetes-ingress\|ingress]]. The docker container is pulled from ```lscr.io/linuxserver/overseerr:latest```.
 
 ### Deployment
-* ``securityContext`` is also set to use ``fsGroup: 1002`` as to not get any conflicts with the storage which resides on [[knowledge/zfs|ZFS]] pools on the main proxmox instance. Further ```PGID``` and ```PUID``` variables are set to also match the ZFS pools.
+* ``securityContext`` is also set to use ``fsGroup: 1002`` as to not get any conflicts with the storage which resides on [[knowledge/computer-science/zfs|ZFS]] pools on the main proxmox instance. Further ```PGID``` and ```PUID``` variables are set to also match the ZFS pools.
 * [Linuxserver docker mods](https://hub.docker.com/r/linuxserver/mods) are used to set the overseerr theme (this is native for this service but done for all other used services from linuxserver)
 * Port ```5055``` is opened from the container
 ```yml

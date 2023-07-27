@@ -5,11 +5,6 @@
 
 <div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/knowledge/math/singular-value-decomposition/" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
 
-$<div class="markdown-embed-title">
-
-# SVD
-
-</div>
 
 
 
@@ -43,11 +38,6 @@ One can often prune columns of $U$ or $V$ corresponding to zero elements in $\Si
 
 <div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/eth/23-fs/cil/theory/03-01-eckart-young-theorem/" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
 
-$<div class="markdown-embed-title">
-
-# 03-01-eckart-young-theorem
-
-</div>
 
 
 
@@ -79,11 +69,6 @@ A - A_k = U \text{diag}(0, \dots, 0, \dots, \sigma_{k+1}, \dots, \sigma_{\min\{n
 
 <div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/eth/23-fs/cil/theory/03-02-svd-pca/" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
 
-$<div class="markdown-embed-title">
-
-# 03-02-svd-pca
-
-</div>
 
 
 
@@ -109,11 +94,6 @@ $
 
 <div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/eth/23-fs/cil/theory/03-03-svd-matrix-completion/" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
 
-$<div class="markdown-embed-title">
-
-# 03-03-svd-matrix-completion
-
-</div>
 
 
 
@@ -152,11 +132,6 @@ $<div class="markdown-embed-title">
 
 <div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/eth/23-fs/cil/theory/03-04-svd-with-imputation/" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
 
-$<div class="markdown-embed-title">
-
-# 03-04-svd-with-imputation
-
-</div>
 
 
 
@@ -176,11 +151,6 @@ If we have an incomplete observation, [[knowledge/math/singular-value-decomposit
 
 <div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/eth/23-fs/cil/theory/03-05-np-hard/" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
 
-$<div class="markdown-embed-title">
-
-# 03-05-np-hard
-
-</div>
 
 
 

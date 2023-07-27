@@ -3,7 +3,7 @@
 ---
 
 # Volume Definitions
-Volume definitions are pairs of [[homelab/kubernetes-persistent-volume\|PersistensVolumes]] and [[homelab/kubernetes-persistent-volume-claim\|PersistentVolumeClaims]].
+Volume definitions are pairs of [[knowledge/computer-science/kubernetes/kubernetes-persistent-volume\|PersistensVolumes]] and [[knowledge/computer-science/kubernetes/kubernetes-persistent-volume-claim\|PersistentVolumeClaims]].
 
 ## Existing mappings
 | File                                                                | pv-name              | pvc-name              | capacity | path                    | server        |
@@ -19,6 +19,10 @@ Volume definitions are pairs of [[homelab/kubernetes-persistent-volume\|Persiste
 | [[homelab/volume-mappings/appdata-prowlarr\|appdata-prowlarr]]   | appdata-prowlarr-pv  | appdata-prowlarr-pvc  | 100Gi    | /data/appdata/prowlarr  | 192.168.0.112 |
 | [[homelab/volume-mappings/appdata-overseerr\|appdata-overseerr]] | appdata-overseerr-pv | appdata-overseerr-pvc | 100Gi    | /data/appdata/overseerr | 192.168.0.112 |
 | [[homelab/volume-mappings/appdata-tautulli\|appdata-tautulli]]   | appdata-tautulli-pv  | appdata-tautulli-pvc  | 128Gi    | /data/appdata/tautulli  | 192.168.0.112 |
+| [[homelab/volume-mappings/nextcloud-data\|nextcloud-data]]       | nextcloud-data-pv    | nextcloud-data-pvc    | 1Ti      | /data/nextcloud-data    | 192.168.0.112 |
+| [[homelab/volume-mappings/nextlcoud-config\|nextlcoud-config]]   | nextcloud-config-pv  | nextcloud-config-pvc  | 256Gi    | /data/nextcloud-config  | 192.168.0.112 |
+| [[homelab/volume-mappings/nextcloud-mariadb\|nextcloud-mariadb]] | nextcloud-mariadb-pv | nextcloud-mariadb-pvc | 128Gi    | /data/nextcloud-mariadb | 192.168.0.112 |
+| [[homelab/volume-mappings/vaultwarden\|vaultwarden]]             | vaultwarden-pv       | vaultwarden-pvc       | 64Gi     | /data/vaultwarden       | 192.168.0.112 |
 
 { .block-language-dataview}
 

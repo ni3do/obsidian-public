@@ -8,7 +8,7 @@ Tandoor Recipe Manager is a versatile and comprehensive tool designed to help us
 ---
 ## Kubernetes Config
 Tandoor is deployed using the Kubernetes installation method from their [docs](https://docs.tandoor.dev/install/kubernetes/).
-Only minimal changes are done, one important one is to add ```securityContext``` to access the [[knowledge/zfs|ZFS]] pools where the persistent data is stored.
+Only minimal changes are done, one important one is to add ```securityContext``` to access the [[knowledge/computer-science/zfs|ZFS]] pools where the persistent data is stored.
 ### Service
 The service has its own local IP.
 ```yml

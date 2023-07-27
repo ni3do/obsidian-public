@@ -11,7 +11,7 @@ Nextcloud is an open-source, self-hosted personal cloud platform that allows you
 Nextcloud is deployed via Helm chart from [official Nextlcoud repository](https://github.com/nextcloud/helm/tree/main/charts/nextcloud) 
 ### Base Config
 * ```cloud.siwachter.com``` subdomain is used to host nextcloud
-* ``securityContext`` is also set to use ``fsGroup: 1002`` as to not get any conflicts with the storage which resides on [[knowledge/zfs\|ZFS]] pools on the main proxmox instance. Further ```PGID``` and ```PUID``` variables are set to also match the ZFS pools.
+* ``securityContext`` is also set to use ``fsGroup: 1002`` as to not get any conflicts with the storage which resides on [[knowledge/computer-science/zfs\|ZFS]] pools on the main proxmox instance. Further ```PGID``` and ```PUID``` variables are set to also match the ZFS pools.
 * Many ```php``` configs are set. There are still some thins to configure, external ips are not seen by nextcloud, only sees internal ip of traefik. **This is not yet final!**
 * ```skeletondirectory``` is set empty to not create base file structure when creating new users
 ```yml
@@ -73,7 +73,7 @@ service:
 ```
 
 ### Persistence
-Persistence is enabled by using designated volumes on the [[knowledge/zfs|ZFS]] pools.
+Persistence is enabled by using designated volumes on the [[knowledge/computer-science/zfs|ZFS]] pools.
 ```yml
 persistence:
   # Nextcloud Data (/var/www/html)
@@ -101,7 +101,7 @@ ingress:
 
 ### External Database Config
 The internal Database is disabled, as advised in production enviroments.
-**Should swap to use [[homelab/kubernetes-secret\|Kubernetes Secret]]**
+**Should swap to use [[knowledge/computer-science/kubernetes/kubernetes-secret\|Kubernetes Secret]]**
 
 ```yml
 externalDatabase:
@@ -126,8 +126,8 @@ externalDatabase:
 
 ### MariaDB 
 MariaDB is the chosen external database.
-* ```podSecurityContext``` and ```containerSecurityContext``` are set to ensure smooth access to the [[knowledge/zfs|ZFS]] pools.
-* Corresponding [[homelab/kubernetes-persistent-volume-claim|PVC]] is mapped
+* ```podSecurityContext``` and ```containerSecurityContext``` are set to ensure smooth access to the [[knowledge/computer-science/zfs|ZFS]] pools.
+* Corresponding [[knowledge/computer-science/kubernetes/kubernetes-persistent-volume-claim|PVC]] is mapped
 ```yml
 mariadb:
   enabled: true

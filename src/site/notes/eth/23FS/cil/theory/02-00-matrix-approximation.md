@@ -165,7 +165,7 @@ $l(u,v) = \frac{1}{2}||A-uv^T||_F^2$
 Directionality of $u,v$ is purely determined by the last term:
 $
 (u,v) \rightarrow \max\{u^T Av\}, \quad \text{s.t.} ||u|| = ||v|| = 1$
-This can be solved with [[knowledge/lagrange-multipliers \| Lagrange multipliers]]:
+This can be solved with [[knowledge/math/lagrange-multipliers\| Lagrange multipliers]]:
 $
 \mathcal{L} = u^T Av - \lambda u \cdot u - \mu v \cdot v$
 First order optimality condition:

@@ -7,6 +7,7 @@
 * [[1-projects/cil/theory/old/02-00-matrix-approximation\| Matrix Approximation]]
 * [[3-ressources/math/linear-algebra/singular-value-decomposition\|Singular Value Decomposition]]
 
+
 ---
 ```query
  tag: eth/cil/theory 

@@ -17,8 +17,6 @@
 - [[1-projects/cil/theory/old/02-05-rank-one-model\|02-05-rank-one-model]]
 - [[1-projects/cil/theory/old/02-08-gradient-dynamics\|02-08-gradient-dynamics]]
 - [[0-inbox/least-squares\|least-squares]]
-- [[0-inbox/lagrange-multipliers\|lagrange-multipliers]]
-- [[1-projects/cil/theory/old/02-09-fully-observed-rank-one-model\|02-09-fully-observed-rank-one-model]]
 - [[1-projects/cil/theory/old/02-07-gradients\|02-07-gradients]]
 - [[1-projects/cil/theory/old/02-00-matrix-approximation\|02-00-matrix-approximation]]
 - [[1-projects/cil/theory/old/03-05-np-hard\|03-05-np-hard]]
@@ -43,5 +41,7 @@
 - [[1-projects/cil/theory/cil-theory-overview\|cil-theory-overview]]
 - [[3-ressources/math/linear-algebra/cil-randomized-algorithm-svd\|cil-randomized-algorithm-svd]]
 - [[3-ressources/math/linear-algebra/cil-reconstruction-theorem\|cil-reconstruction-theorem]]
+- [[1-projects/cil/theory/old/02-09-fully-observed-rank-one-model\|02-09-fully-observed-rank-one-model]]
+- [[0-inbox/lagrange-multipliers\|lagrange-multipliers]]
 
 { .block-language-dataview}

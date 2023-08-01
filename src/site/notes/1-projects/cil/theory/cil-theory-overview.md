@@ -5,7 +5,7 @@
 # CIL Theory Overview
 * [[1-projects/cil/theory/old/01-00-dimension-reduction\| Dimension Reduction]]
 * [[1-projects/cil/theory/old/02-00-matrix-approximation\| Matrix Approximation]]
-* [[1-projects/cil/theory/old/03-00-singular-value-decomposition\| Singular Value Decomposition]]
+* [[3-ressources/math/linear-algebra/singular-value-decomposition\|Singular Value Decomposition]]
 
 ```query
  tag: eth/cil/theory 

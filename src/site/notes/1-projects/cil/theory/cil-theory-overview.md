@@ -42,6 +42,6 @@
 - [[3-ressources/math/linear-algebra/eigen-decomposition\|eigen-decomposition]]
 - [[1-projects/cil/theory/cil-theory-overview\|cil-theory-overview]]
 - [[3-ressources/math/linear-algebra/cil-randomized-algorithm-svd\|cil-randomized-algorithm-svd]]
-- [[0-inbox/cil-reconstruction-theorem\|cil-reconstruction-theorem]]
+- [[3-ressources/math/linear-algebra/cil-reconstruction-theorem\|cil-reconstruction-theorem]]
 
 { .block-language-dataview}

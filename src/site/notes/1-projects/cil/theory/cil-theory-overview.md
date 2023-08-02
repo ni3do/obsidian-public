@@ -8,8 +8,6 @@
 * [[3-ressources/math/linear-algebra/singular-value-decomposition\|Singular Value Decomposition]]
 
 ---
-- [[0-inbox/evidence-lower-bound\|evidence-lower-bound]]
-- [[0-inbox/expectation-maximization-algorightm\|expectation-maximization-algorightm]]
 - [[1-projects/cil/theory/cil-theory-overview\|cil-theory-overview]]
 - [[1-projects/cil/theory/old/03-05-np-hard\|03-05-np-hard]]
 - [[1-projects/cil/theory/old/03-04-svd-with-imputation\|03-04-svd-with-imputation]]
@@ -29,6 +27,8 @@
 - [[1-projects/cil/theory/old/01-00-dimension-reduction\|01-00-dimension-reduction]]
 - [[1-projects/cil/theory/old/02-01-recommender-systems\|02-01-recommender-systems]]
 - [[3-ressources/machine-learning/mixture-models\|mixture-models]]
+- [[3-ressources/machine-learning/evidence-lower-bound\|evidence-lower-bound]]
+- [[3-ressources/machine-learning/expectation-maximization-algorightm\|expectation-maximization-algorightm]]
 - [[3-ressources/machine-learning/maximum-likelihood-estimation\|maximum-likelihood-estimation]]
 - [[3-ressources/math/least-squares\|least-squares]]
 - [[3-ressources/math/lagrange-multipliers\|lagrange-multipliers]]

@@ -11,11 +11,11 @@
 ### Definition
 Log likelihood function:
 $$l(\theta;\{x_{1}, \dots, x_{s}\}) = \sum_{t=1}^s \ln p(x_{t}; \theta) = \sum_{t=1}^s \ln \sum_{z=1}^k \pi_{z} p(x_{t}; \theta_{z})$$
-Where $p(x_{t}; \theta_{z})$ is the probability distribution of the data $X$.
+Where $p(x_{t}; \theta_{z})$ is the probability distribution which we chose for our clusters.
 **Example for Gaussian:**
 $$l(\theta;\{x_{1}, \dots, x_{s}\}) = \sum_{t=1}^s \ln p(x_{t}; \theta) = \sum_{t=1}^s \ln \sum_{z=1}^k \pi_{z} \mathcal{N}(x_{z} | \mu_{z}, \Sigma_{z})$$
 
 Optimization problem find the **maximum likelihood estimate (MLE)**:
 $$\theta^{\text{MLE}} = \arg\max_{\boldsymbol{\theta}} l(\boldsymbol{\theta};\{x_{1}, \dots, x_{s}\})$$
 ### Computation
-Use [[0-inbox/expectation-maximization-algorightm\|expectation-maximization-algorightm]]
+Use [[3-ressources/machine-learning/expectation-maximization-algorightm\|expectation-maximization-algorightm]]

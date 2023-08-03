@@ -8,11 +8,10 @@
 * [[3-ressources/math/linear-algebra/singular-value-decomposition\|Singular Value Decomposition]]
 
 ---
-- [[0-inbox/cil-important-points\|cil-important-points]]
 - [[1-projects/cil/theory/cil-theory-overview\|cil-theory-overview]]
+- [[1-projects/cil/theory/cil-important-points\|cil-important-points]]
 - [[1-projects/cil/theory/old/03-04-svd-with-imputation\|03-04-svd-with-imputation]]
 - [[1-projects/cil/theory/old/03-03-svd-matrix-completion\|03-03-svd-matrix-completion]]
-- [[1-projects/cil/theory/old/03-02-svd-pca\|03-02-svd-pca]]
 - [[1-projects/cil/theory/old/03-01-eckart-young-theorem\|03-01-eckart-young-theorem]]
 - [[1-projects/cil/theory/old/02-09-fully-observed-rank-one-model\|02-09-fully-observed-rank-one-model]]
 - [[1-projects/cil/theory/old/02-08-gradient-dynamics\|02-08-gradient-dynamics]]
@@ -27,6 +26,7 @@
 - [[1-projects/cil/theory/old/02-01-recommender-systems\|02-01-recommender-systems]]
 - [[1-projects/cil/theory/old/03-05-np-hard\|03-05-np-hard]]
 - [[1-projects/cil/theory/old/03-00-singular-value-decomposition\|03-00-singular-value-decomposition]]
+- [[1-projects/cil/theory/old/03-02-svd-pca\|03-02-svd-pca]]
 - [[3-ressources/machine-learning/mixture-models\|mixture-models]]
 - [[3-ressources/machine-learning/evidence-lower-bound\|evidence-lower-bound]]
 - [[3-ressources/machine-learning/expectation-maximization-algorightm\|expectation-maximization-algorightm]]

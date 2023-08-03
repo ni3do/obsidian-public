@@ -1,0 +1,62 @@
+---
+{"dg-publish":true,"permalink":"/1-projects/cil/theory/cil-important-points/","tags":["eth/cil/theory"],"created":"","updated":""}
+---
+
+# CIL Important Points
+- $\nabla_{R} \frac{1}{2} \lvert\lvert R \rvert\rvert_{F}^2 = R$
+- $\text{tr}(R^TR) = \lvert\lvert R \rvert\rvert_{F}^2$
+- two linear maps: $L: V \rightarrow V'$, $L': V' \rightarrow V''$
+	- $\text{rank}(L' \circ L) \leq \min\{ \text{rank}(L), \text{rank(L')}\}$
+	- if $\text{im}(L) \cap \text{ker}(L') = \{0\}$, then equality holds
+- $\text{rank}(AB) = \min(\text{rank}(A), \text{rank}(B))$
+- $\mid \langle u, x\rangle\mid = \mid \cos(u,x) \mid \lvert\lvert x \rvert\rvert \lvert\lvert u \rvert\rvert$
+- idempotence of projection: $P^2 = P$
+- Self-adjoint: $\langle P(x), y\rangle = \langle x, P(y) \rangle$
+	- projection over Hilbert space is orthogonal if it is self-adjoint
+- $V^T = (V^TV)^{-1}V^T$
+	- for any $V: V^T = \arg\min_{w} R(W,V)$
+- For centered data, $x$, the reconstruction loss of a projection matrix is $\frac{1}{2} (\text{Var}(x) - \text{Var}(Px))$
+	- $\text{Var}(Px) = \text{trace}(PE[xx^T])$
+- Spectral theorem:
+	- For $\Sigma$ symmetric and positive semidefinite:
+	- $\Sigma = Q \Lambda Q^T, \quad \Lambda = \text{diag}(\lambda_{1, \dots, \lambda_{n}}, \quad \lambda_{1} \geq \lambda_{n} \geq 0$
+- Normalize data $X$ with variance $1$: $Z = \frac{X - \boldsymbol{E}[X]}{\text{Var}[X]}$
+- Definitheit:
+	- positive: $x^T A x > 0, \quad \forall x \neq 0$
+	- positive semi: $x^TAx \geq 0, \quad \forall x \neq 0$
+	- negative: $x^T A x < 0, \quad \forall x \neq 0$
+	- negative semi: $x^T A x \leq 0, \quad \forall x \neq 0$
+	- indefinite: else
+- if $A$ is symmetric:
+	- eigenvalues are real
+	- positive $\iff \lambda_{i} > 0$
+	- positive semi $\iff \lambda_{i} \geq 0$
+	- negative $\iff \lambda_{i} < 0$
+	- negative semi $\iff \lambda_{i} \leq 0$
+- convex:
+	- $f(tx + (1-t)y) \leq tf(x) + (1-t)f(y)$
+	- if $f$ is differentiable:
+		- $f(x) \geq f(y) + \nabla f(y)(x-y)$
+	- if $f$ is twice differentiable:
+		- $\nabla^2 f(x) \succeq 0$  positive semi definit
+- $\lvert\lvert A \rvert\rvert_{F}^2 = \sum_{i=1}^{\min(n,m)} \sigma_{i}^2$
+- $\lvert\lvert A \rvert\rvert_{2} = \sup\{\lvert\lvert Ax \rvert\rvert: \lvert\lvert x \rvert\rvert = 1\} = \sigma_{1}$
+- Orthogonal matrixes preserve euclidean norm
+- $\text{trace}(A^T B) = \text{trace}(AB^T) = \text{trace}(B^T A) = \text{trace}(BA^T)$
+- $\text{trace}(AB) = \text{trace}(BA)$
+- $\text{trace}(ABC) = \text{trace}(CAB)$, but $\text{trace}(ABC) \neq \text{trace}(ACB)$
+- $\text{trace}(A) = \sum_{i=1}^n \lambda_{i}$ if $A \in \mathbb{R}^{n \times n}$
+- if $A = UDV^T \rightarrow \lvert\lvert A \rvert\rvert_{*} = \text{trace}(D)$
+- $\mu$-strongly convex (for differentiable function $f$)
+	- $f(b) \geq f(a) + \langle f(a), b-a \rangle + \frac{\mu}{2} \lvert\lvert b - a \rvert\rvert^2, \quad \forall b,a$
+	- positive definite quadratic function is strongly convex with $\mu = \lambda_{\min}$
+- twice differentiable:
+	- $0 \prec \mu I \preceq \nabla^2 f(b) \preceq fI, \quad \forall b$
+	- $f$ is $\mu$-strongly convex $\Rightarrow$ $f$ satisfies PL-condition with $\mu$
+- PL-condition
+	- $\frac{1}{2} \lvert\lvert \nabla f(\Theta) \rvert\rvert^2 \geq \mu(f(\Theta) - f^*), \quad \forall \Theta$
+	- $l^* = \min_{\Theta} f(\Theta)$
+- Adam:
+	- $g_{i}^k = \beta g_{i}^{k-1} + (1-\beta) d_{i} l(\Theta^k)$
+	- $h_{i}^k = \alpha h_{i}^{k-1} + (1-\alpha) (d_{i} l(\Theta^k))^2$
+	- $\Rightarrow$ $\Theta_{i}^{k+1} ) \Theta_{i}^k - \eta_{i}^k g_{i}^k$, with $\eta_{i}^k = \frac{\eta}{\sqrt{h_{i}^k} + \delta}$

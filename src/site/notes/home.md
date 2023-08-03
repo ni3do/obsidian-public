@@ -7,6 +7,8 @@
 * [[1-projects/cil/project/cil-trained-models\| CIL Trained Models]]
 * [[1-projects/cil/project/cil-results\| CIL Results]]
 * [[1-projects/cil/theory/cil-theory-overview\| CIL Theory Overview]]
+* [[0-inbox/cil-important-points\|CIL Important Linalg Theorems/Things]]
+
 
 ---
 

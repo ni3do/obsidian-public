@@ -1,0 +1,34 @@
+---
+{"dg-publish":true,"permalink":"/0-inbox/cil-important-points/","tags":["eth/cil/theory"],"created":"","updated":""}
+---
+
+# CIL Important Points
+- $\text{tr}(R^TR) = \lvert\lvert R \rvert\rvert_{F}^2$
+- two linear maps: $L: V \rightarrow V'$, $L': V' \rightarrow V''$
+	- $\text{rank}(L' \circ L) \leq \min\{ \text{rank}(L), \text{rank(L')}\}$
+	- if $\text{im}(L) \cap \text{ker}(L') = \{0\}$, then equality holds
+- $\text{rank}(AB) = \min(\text{rank}(A), \text{rank}(B))$
+- $\mid \langle u, x\rangle\mid = \mid \cos(u,x) \mid \lvert\lvert x \rvert\rvert \lvert\lvert u \rvert\rvert$
+- idempotence of projection: $P^2 = P$
+- Self-adjoint: $\langle P(x), y\rangle = \langle x, P(y) \rangle$
+	- projection over Hilbert space is orthogonal if it is self-adjoint
+- $V^T = (V^TV)^{-1}V^T$
+	- for any $V: V^T = \arg\min_{w} R(W,V)$
+- For centered data, $x$, the reconstruction loss of a projection matrix is $\frac{1}{2} (\text{Var}(x) - \text{Var}(Px))$
+	- $\text{Var}(Px) = \text{trace}(PE[xx^T])$
+- Spectral theorem:
+	- For $\Sigma$ symmetric and positive semidefinite:
+	- $\Sigma = Q \Lambda Q^T, \quad \Lambda = \text{diag}(\lambda_{1, \dots, \lambda_{n}}, \quad \lambda_{1} \geq \lambda_{n} \geq 0$
+- Normalize data $X$ with variance $1$: $Z = \frac{X - \boldsymbol{E}[X]}{\text{Var}[X]}$
+- Definitheit:
+	- positive: $x^T A x > 0, \quad \forall x \neq 0$
+	- positive semi: $x^TAx \geq 0, \quad \forall x \neq 0$
+	- negative: $x^T A x < 0, \quad \forall x \neq 0$
+	- negative semi: $x^T A x \leq 0, \quad \forall x \neq 0$
+	- indefinite: else
+- if $A$ is symmetric:
+	- eigenvalues are real
+	- positive $\iff \lambda_{i} > 0$
+	- positive semi $\iff \lambda_{i} \geq 0$
+	- negative $\iff \lambda_{i} < 0$
+	- negative semi $\iff \lambda_{i} \leq 0$

@@ -10,9 +10,9 @@
 ## Simon Points
 - [[3-ressources/machine-learning/evidence-lower-bound#Derive ELBO (CIL-style)\| ELBO Derivation]]
 - [[3-ressources/math/linear-algebra/covariance-matrix\|Covariance Matrix]]
-- [[0-inbox/probabilistic-latent-semantic-analysis\|pLSA]]
+- [[3-ressources/machine-learning/probabilistic-latent-semantic-analysis\|pLSA]]
 - [[3-ressources/machine-learning/activation-functions\|Activation Functions]]
-- [[0-inbox/glove-model\|GloVe Model]]
+- [[3-ressources/machine-learning/glove-model\|GloVe Model]]
 - [[3-ressources/machine-learning/gradient-descent\|Gradient Descent]]
 - 
 
@@ -23,10 +23,6 @@
 * [[3-ressources/math/linear-algebra/singular-value-decomposition\|Singular Value Decomposition]]
 
 ---
-- [[0-inbox/probabilistic-latent-semantic-analysis\|probabilistic-latent-semantic-analysis]]
-- [[0-inbox/non-negative-matrix-factorization\|non-negative-matrix-factorization]]
-- [[0-inbox/glove-model\|glove-model]]
-- [[0-inbox/l-smoothness\|l-smoothness]]
 - [[1-projects/cil/theory/cil-theory-overview\|cil-theory-overview]]
 - [[1-projects/cil/theory/cil-important-points\|cil-important-points]]
 - [[1-projects/cil/theory/old/03-04-svd-with-imputation\|03-04-svd-with-imputation]]
@@ -54,11 +50,15 @@
 - [[3-ressources/machine-learning/mixture-models\|mixture-models]]
 - [[3-ressources/machine-learning/activation-functions\|activation-functions]]
 - [[3-ressources/machine-learning/gradient-descent\|gradient-descent]]
+- [[3-ressources/machine-learning/glove-model\|glove-model]]
+- [[3-ressources/machine-learning/non-negative-matrix-factorization\|non-negative-matrix-factorization]]
+- [[3-ressources/machine-learning/probabilistic-latent-semantic-analysis\|probabilistic-latent-semantic-analysis]]
 - [[3-ressources/math/least-squares\|least-squares]]
 - [[3-ressources/math/lagrange-multipliers\|lagrange-multipliers]]
 - [[3-ressources/math/jensen-inequality\|jensen-inequality]]
 - [[3-ressources/math/frobenius-norm\|frobenius-norm]]
 - [[3-ressources/math/normal-distribution\|normal-distribution]]
+- [[3-ressources/math/l-smoothness\|l-smoothness]]
 - [[3-ressources/math/linear-algebra/nuclear-norm-minimization\|nuclear-norm-minimization]]
 - [[3-ressources/math/linear-algebra/hadamard-product\|hadamard-product]]
 - [[3-ressources/math/linear-algebra/fenchel-conjugate\|fenchel-conjugate]]

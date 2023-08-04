@@ -8,7 +8,6 @@
 * [[3-ressources/math/linear-algebra/singular-value-decomposition\|Singular Value Decomposition]]
 
 ---
-- [[0-inbox/variance-covariance-matrix\|variance-covariance-matrix]]
 - [[1-projects/cil/theory/cil-theory-overview\|cil-theory-overview]]
 - [[1-projects/cil/theory/cil-important-points\|cil-important-points]]
 - [[1-projects/cil/theory/old/03-04-svd-with-imputation\|03-04-svd-with-imputation]]
@@ -29,11 +28,12 @@
 - [[1-projects/cil/theory/old/03-00-singular-value-decomposition\|03-00-singular-value-decomposition]]
 - [[1-projects/cil/theory/old/03-02-svd-pca\|03-02-svd-pca]]
 - [[3-ressources/machine-learning/mixture-models\|mixture-models]]
-- [[3-ressources/machine-learning/evidence-lower-bound\|evidence-lower-bound]]
-- [[3-ressources/machine-learning/expectation-maximization-algorightm\|expectation-maximization-algorightm]]
 - [[3-ressources/machine-learning/maximum-likelihood-estimation\|maximum-likelihood-estimation]]
+- [[3-ressources/machine-learning/expectation-maximization-algorightm\|expectation-maximization-algorightm]]
+- [[3-ressources/machine-learning/evidence-lower-bound\|evidence-lower-bound]]
 - [[3-ressources/math/least-squares\|least-squares]]
 - [[3-ressources/math/lagrange-multipliers\|lagrange-multipliers]]
+- [[3-ressources/math/jensen-inequality\|jensen-inequality]]
 - [[3-ressources/math/linear-algebra/nuclear-norm-minimization\|nuclear-norm-minimization]]
 - [[3-ressources/math/linear-algebra/hadamard-product\|hadamard-product]]
 - [[3-ressources/math/linear-algebra/fenchel-conjugate\|fenchel-conjugate]]
@@ -47,6 +47,7 @@
 - [[3-ressources/math/linear-algebra/singular-value\|singular-value]]
 - [[3-ressources/math/linear-algebra/cil-reconstruction-theorem\|cil-reconstruction-theorem]]
 - [[3-ressources/math/linear-algebra/cil-randomized-algorithm-svd\|cil-randomized-algorithm-svd]]
+- [[3-ressources/math/linear-algebra/variance-covariance-matrix\|variance-covariance-matrix]]
 - [[3-ressources/math/linear-algebra/norms/nuclear-norm\|nuclear-norm]]
 - [[3-ressources/math/linear-algebra/norms/frobenius-norm\|frobenius-norm]]
 

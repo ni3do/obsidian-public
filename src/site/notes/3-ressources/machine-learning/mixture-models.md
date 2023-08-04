@@ -7,7 +7,8 @@
 - associate a categorical (random) variable $Z_t$ with a pattern in the data
 - model to represent a subpopulation within a population, without 
 ### Definition
-![3-ressources/assets/cil-categorical-mixture-model.png](/img/user/3-ressources/assets/cil-categorical-mixture-model.png)
+$$Z_{t} \overset{\text{iid}}{\sim} \text{Categ}(\pi_{1}, \dots, \pi_{k}), \quad \mathbb{P}(Z_{t} = z) = \pi_{z}$$
+
 $\pi = (\pi_{1}, \dots, \pi_{k})$ a priori probability that a random point belongs to class
 Define a class conditional distribution $p(\boldsymbol{x}|z)$  for each class:
 $$p(\boldsymbol{x}, z) = \pi_{z} p(x | z), \quad p(x) = \sum_{z=1}^k p(x,z) = \sum_{z=1}^k \pi_{z} p(x|z)$$

@@ -3,13 +3,27 @@
 ---
 
 # CIL Theory Overview
+### TODO 
+- [[3-ressources/math/normal-distribution#Derivative of Normal Distribution\|Derivative of normal dist.]]
+- Dirichlet
+- 
+## Simon Points
+- [[3-ressources/machine-learning/evidence-lower-bound#Derive ELBO (CIL-style)\| ELBO Derivation]]
+- [[3-ressources/math/linear-algebra/covariance-matrix\|Covariance Matrix]]
+- [[0-inbox/probabilistic-latent-semantic-analysis\|pLSA]]
+- 
+
+
+---
 * [[1-projects/cil/theory/old/01-00-dimension-reduction\| Dimension Reduction]]
 * [[1-projects/cil/theory/old/02-00-matrix-approximation\| Matrix Approximation]]
 * [[3-ressources/math/linear-algebra/singular-value-decomposition\|Singular Value Decomposition]]
 
 ---
-- [[1-projects/cil/theory/cil-theory-overview\|cil-theory-overview]]
+- [[0-inbox/probabilistic-latent-semantic-analysis\|probabilistic-latent-semantic-analysis]]
+- [[0-inbox/non-negative-matrix-factorization\|non-negative-matrix-factorization]]
 - [[1-projects/cil/theory/cil-important-points\|cil-important-points]]
+- [[1-projects/cil/theory/cil-theory-overview\|cil-theory-overview]]
 - [[1-projects/cil/theory/old/03-04-svd-with-imputation\|03-04-svd-with-imputation]]
 - [[1-projects/cil/theory/old/03-03-svd-matrix-completion\|03-03-svd-matrix-completion]]
 - [[1-projects/cil/theory/old/03-01-eckart-young-theorem\|03-01-eckart-young-theorem]]
@@ -27,13 +41,17 @@
 - [[1-projects/cil/theory/old/03-05-np-hard\|03-05-np-hard]]
 - [[1-projects/cil/theory/old/03-00-singular-value-decomposition\|03-00-singular-value-decomposition]]
 - [[1-projects/cil/theory/old/03-02-svd-pca\|03-02-svd-pca]]
-- [[3-ressources/machine-learning/mixture-models\|mixture-models]]
 - [[3-ressources/machine-learning/maximum-likelihood-estimation\|maximum-likelihood-estimation]]
 - [[3-ressources/machine-learning/expectation-maximization-algorightm\|expectation-maximization-algorightm]]
 - [[3-ressources/machine-learning/evidence-lower-bound\|evidence-lower-bound]]
+- [[3-ressources/machine-learning/gaussian-mixture-models\|gaussian-mixture-models]]
+- [[3-ressources/machine-learning/k-means-model\|k-means-model]]
+- [[3-ressources/machine-learning/mixture-models\|mixture-models]]
 - [[3-ressources/math/least-squares\|least-squares]]
 - [[3-ressources/math/lagrange-multipliers\|lagrange-multipliers]]
 - [[3-ressources/math/jensen-inequality\|jensen-inequality]]
+- [[3-ressources/math/frobenius-norm\|frobenius-norm]]
+- [[3-ressources/math/normal-distribution\|normal-distribution]]
 - [[3-ressources/math/linear-algebra/nuclear-norm-minimization\|nuclear-norm-minimization]]
 - [[3-ressources/math/linear-algebra/hadamard-product\|hadamard-product]]
 - [[3-ressources/math/linear-algebra/fenchel-conjugate\|fenchel-conjugate]]

@@ -3,7 +3,7 @@
 ---
 
 # Expectation Maximization Algorithm
-- use [[0-inbox/jensen-inequality\|Jensen's Inequality]] to lower bound a concave function
+- use [[3-ressources/math/jensen-inequality\|Jensen's Inequality]] to lower bound a concave function
 
 ### Definition
 #### E-Step

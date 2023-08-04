@@ -5,6 +5,7 @@
 # CIL Important Points
 - sample variance: $\frac{1}{N} \sum_{i=0}^N (x_{i} - \mu)^2$
 - the sum of two symmetric matrices is symmetric
+- principal components are always normalized (they stem from an orthonormal matrix)
 - symmetric matrices have orthogonal eigenvectors: $u^Tv = 0$
 - K-means:
 	- deterministic assignments to clusters

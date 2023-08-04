@@ -3,6 +3,8 @@
 ---
 
 # CIL Important Points
+- Reconstruction Error: $\frac{1}{4n}\lvert\lvert P - \hat{P} \rvert\rvert_{F}^2$
+- $\cos^2(x) + \sin^2(x) = 1$
 - sample variance: $\frac{1}{N} \sum_{i=0}^N (x_{i} - \mu)^2$
 - the sum of two symmetric matrices is symmetric
 - principal components are always normalized (they stem from an orthonormal matrix)

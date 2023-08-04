@@ -11,6 +11,9 @@
 - [[3-ressources/machine-learning/evidence-lower-bound#Derive ELBO (CIL-style)\| ELBO Derivation]]
 - [[3-ressources/math/linear-algebra/covariance-matrix\|Covariance Matrix]]
 - [[0-inbox/probabilistic-latent-semantic-analysis\|pLSA]]
+- [[3-ressources/machine-learning/activation-functions\|Activation Functions]]
+- [[0-inbox/glove-model\|GloVe Model]]
+- [[3-ressources/machine-learning/gradient-descent\|Gradient Descent]]
 - 
 
 
@@ -22,7 +25,8 @@
 ---
 - [[0-inbox/probabilistic-latent-semantic-analysis\|probabilistic-latent-semantic-analysis]]
 - [[0-inbox/non-negative-matrix-factorization\|non-negative-matrix-factorization]]
-- [[0-inbox/activation-functions\|activation-functions]]
+- [[0-inbox/glove-model\|glove-model]]
+- [[0-inbox/l-smoothness\|l-smoothness]]
 - [[1-projects/cil/theory/cil-theory-overview\|cil-theory-overview]]
 - [[1-projects/cil/theory/cil-important-points\|cil-important-points]]
 - [[1-projects/cil/theory/old/03-04-svd-with-imputation\|03-04-svd-with-imputation]]
@@ -48,6 +52,8 @@
 - [[3-ressources/machine-learning/gaussian-mixture-models\|gaussian-mixture-models]]
 - [[3-ressources/machine-learning/k-means-model\|k-means-model]]
 - [[3-ressources/machine-learning/mixture-models\|mixture-models]]
+- [[3-ressources/machine-learning/activation-functions\|activation-functions]]
+- [[3-ressources/machine-learning/gradient-descent\|gradient-descent]]
 - [[3-ressources/math/least-squares\|least-squares]]
 - [[3-ressources/math/lagrange-multipliers\|lagrange-multipliers]]
 - [[3-ressources/math/jensen-inequality\|jensen-inequality]]

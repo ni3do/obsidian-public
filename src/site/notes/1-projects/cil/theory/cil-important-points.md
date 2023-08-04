@@ -3,6 +3,8 @@
 ---
 
 # CIL Important Points
+eigenvalues of $X^TX$ are singular values of $X$ squared
+
 ## General
 - sample variance: $\frac{1}{N} \sum_{i=0}^N (x_{i} - \mu)^2$
 - Reconstruction Error: $\frac{1}{4n}\lvert\lvert P - \hat{P} \rvert\rvert_{F}^2$

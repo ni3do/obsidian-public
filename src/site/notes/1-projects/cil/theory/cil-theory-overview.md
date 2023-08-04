@@ -22,8 +22,9 @@
 ---
 - [[0-inbox/probabilistic-latent-semantic-analysis\|probabilistic-latent-semantic-analysis]]
 - [[0-inbox/non-negative-matrix-factorization\|non-negative-matrix-factorization]]
-- [[1-projects/cil/theory/cil-important-points\|cil-important-points]]
+- [[0-inbox/activation-functions\|activation-functions]]
 - [[1-projects/cil/theory/cil-theory-overview\|cil-theory-overview]]
+- [[1-projects/cil/theory/cil-important-points\|cil-important-points]]
 - [[1-projects/cil/theory/old/03-04-svd-with-imputation\|03-04-svd-with-imputation]]
 - [[1-projects/cil/theory/old/03-03-svd-matrix-completion\|03-03-svd-matrix-completion]]
 - [[1-projects/cil/theory/old/03-01-eckart-young-theorem\|03-01-eckart-young-theorem]]

@@ -7,7 +7,7 @@ eigenvalues of $X^TX$ are singular values of $X$ squared
 
 ## General
 - sample variance: $\frac{1}{N} \sum_{i=0}^N (x_{i} - \mu)^2$
-- Reconstruction Error: $\frac{1}{4n}\lvert\lvert P - \hat{P} \rvert\rvert_{F}^2$
+- Reconstruction Error: $\frac{1}{N}\lvert\lvert P - \hat{P} \rvert\rvert_{F}^2$
 - $\cos^2(x) + \sin^2(x) = 1$
 - For centered data, $x$, the reconstruction loss of a projection matrix is $\frac{1}{2} (\text{Var}(x) - \text{Var}(Px))$
 	- $\text{Var}(Px) = \text{trace}(PE[xx^T])$
@@ -27,9 +27,15 @@ eigenvalues of $X^TX$ are singular values of $X$ squared
 - Adam:
 	- $g_{i}^k = \beta g_{i}^{k-1} + (1-\beta) d_{i} l(\Theta^k)$
 	- $h_{i}^k = \alpha h_{i}^{k-1} + (1-\alpha) (d_{i} l(\Theta^k))^2$
-	- $\Rightarrow$ $\Theta_{i}^{k+1} ) \Theta_{i}^k - \eta_{i}^k g_{i}^k$, with $\eta_{i}^k = \frac{\eta}{\sqrt{h_{i}^k} + \delta}$
+	- $\Rightarrow$ $\Theta_{i}^{k+1} = \Theta_{i}^k - \eta_{i}^k g_{i}^k$, with $\eta_{i}^k = \frac{\eta}{\sqrt{h_{i}^k} + \delta}$
 ---
 ## Linalg Stuff
+ -  If $f1(x), f2(x), . . . , fk(x)$ are convex functions defined on a convex set $C \subset R^n$, then $f (x) = f1(x) + f2(x) + · · · + fk(x)$ is convex on C.
+ - Furthermore, if at least one of the functions $fi(x), i = 1, 2, . . . , k$ is strictly convex on C, then f (x) is strictly convex on C.
+- If f (x) is convex on a convex set $C \subset R^n$, and if $\alpha > 0$, then $\alpha f (x)$ is convex on C.
+- If f (x) is strictly convex on a convex set $C \subset R^n$, and if $\alpha > 0$, then $\alpha f (x)$ is strictly convex on C.
+- If f (x) is convex on a convex set $C \subset R^n$, and if g(y) is an increasing convex function defined on the range of f (x, then the composition g(f (x)) is convex on C.
+- If f (x) is strictly convex on a convex set $C \subset R^n$, and if g(y) is a strictly increasing convex function defined on the range of f (x, then the composition g(f (x)) is strictly convex on C
 - sum of two symmetric matrices is symmetric
 - principal components are always normalized (they stem from an orthonormal matrix)
 - symmetric matrices have orthogonal eigenvectors: $u^Tv = 0$

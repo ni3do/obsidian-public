@@ -16,4 +16,4 @@ Use two stage sampling process:
 2. Sample a token given the topic from $p(w | z)$
 
 ### Log-Likelihood
-$$l(\theta;N) = \log p(N; \theta) = \sum_{i,j} N_{ij} \log p(w_{j}|d_{i}), \quad p(w_{j}|d_{i}) = \sum_{z=1}^k p(w_{j}|z)p(z|d_{i})$$
+$$l(\theta;N) = \log p(N; \theta) = \sum_{i,j} N_{ij} \log p(w_{j}|d_{i}), \quad p(w_{j}|d_{i}) = \sum_{t=1}^k p(w_{j}|z_{t})p(z_{t}|d_{i})$$

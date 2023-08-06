@@ -9,8 +9,8 @@ Volume definitions are pairs of [[3-ressources/computer-science/kubernetes/kuber
 | File                                                                        | pv-name              | pvc-name              | capacity | path                    | server        |
 | --------------------------------------------------------------------------- | -------------------- | --------------------- | -------- | ----------------------- | ------------- |
 | [[2-areas/homelab/volume-mappings/vaultwarden\|vaultwarden]]             | vaultwarden-pv       | vaultwarden-pvc       | 64Gi     | /data/vaultwarden       | 192.168.0.112 |
-| [[2-areas/homelab/volume-mappings/nextlcoud-config\|nextlcoud-config]]   | nextcloud-config-pv  | nextcloud-config-pvc  | 256Gi    | /data/nextcloud-config  | 192.168.0.112 |
 | [[2-areas/homelab/volume-mappings/nextcloud-mariadb\|nextcloud-mariadb]] | nextcloud-mariadb-pv | nextcloud-mariadb-pvc | 128Gi    | /data/nextcloud-mariadb | 192.168.0.112 |
+| [[2-areas/homelab/volume-mappings/nextlcoud-config\|nextlcoud-config]]   | nextcloud-config-pv  | nextcloud-config-pvc  | 256Gi    | /data/nextcloud-config  | 192.168.0.112 |
 | [[2-areas/homelab/volume-mappings/nextcloud-data\|nextcloud-data]]       | nextcloud-data-pv    | nextcloud-data-pvc    | 1Ti      | /data/nextcloud-data    | 192.168.0.112 |
 | [[2-areas/homelab/volume-mappings/media\|media]]                         | media-pv             | media-pvc             | 26Ti     | /data/media             | 192.168.0.112 |
 | [[2-areas/homelab/volume-mappings/download\|download]]                   | download-pv          | download-pvc          | 2Ti      | /data/download          | 192.168.0.112 |

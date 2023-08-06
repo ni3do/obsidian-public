@@ -4,6 +4,15 @@
 
 # CIL Important Points
 eigenvalues of $X^TX$ are singular values of $X$ squared
+- Norms:
+	- Nuclear Norm:
+		- is convex envelope of rank function
+		  $\lvert\lvert A \rvert\rvert_{*} = \sum_{i=1}^{\text{rank}(A)} \sigma_{i}$
+	- Frobenius Norm
+	- l2 norm
+		$\lvert\lvert A \rvert\rvert_{2} = \sum_{j=1}^n \lvert\lvert a_{j} \rvert\rvert_{2}$
+		$\lvert\lvert A \rvert\rvert_{2} = \sigma_{1}$
+- 
 
 ## General
 - sample variance: $\frac{1}{N} \sum_{i=0}^N (x_{i} - \mu)^2$

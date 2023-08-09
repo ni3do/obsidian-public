@@ -24,4 +24,4 @@ $$
 ||A||_2 := \sup\{||Ax||: ||x|| = 1\} = \sigma_1$$
 ## Reduced SVD
 One can often prune columns of $U$ or $V$ corresponding to zero elements in $\Sigma$ (or zero-padded columns/rows)
-![1-projects/cil/theory/old/assets/reduced-svd.png](/img/user/1-projects/cil/theory/old/assets/reduced-svd.png)
+![4-archive/cil/theory/old/assets/reduced-svd.png](/img/user/4-archive/cil/theory/old/assets/reduced-svd.png)

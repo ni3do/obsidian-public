@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/3-ressources/machine-learning/expectation-maximization-algorightm/","tags":["math/machine-learning, eth/cil/theory"],"created":"","updated":""}
+{"dg-publish":true,"permalink":"/3-ressources/machine-learning/expectation-maximization-algorightm/","tags":["computer-science/machine-learning, eth/cil/theory"],"created":"","updated":""}
 ---
 
 # Expectation Maximization Algorithm

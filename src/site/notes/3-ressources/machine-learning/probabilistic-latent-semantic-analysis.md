@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/3-ressources/machine-learning/probabilistic-latent-semantic-analysis/","tags":["machine-learning, nlp, eth/cil/theory"],"created":"","updated":""}
+{"dg-publish":true,"permalink":"/3-ressources/machine-learning/probabilistic-latent-semantic-analysis/","tags":["machine-learning, computer-science/machine-learning/nlp, eth/cil/theory"],"created":"","updated":""}
 ---
 
 # Probabilistic Latent Semantic Analysis (pLSA)

@@ -10,7 +10,7 @@
 | ---------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ------ | --------- | ---------- |
 | [[4-archive/cil/project/trained-models/UnetPlusPlus-efficientnet-b5-imagenet-wachterberg65\|UnetPlusPlus-efficientnet-b5-imagenet-wachterberg65]] | UnetPlusPlus | efficientnet-b5 | 25     | 0.151555  | siwachte   |
 | [[4-archive/cil/project/trained-models/UnetPlusPlus-efficientnet-b5-imagenet\|UnetPlusPlus-efficientnet-b5-imagenet]]                             | UnetPlusPlus | efficientnet-b5 | 40     | 0.164649  | stkramer   |
-| [[4-archive/cil/project/trained-models/UnetPlusPlus-efficientnet-b7-imagenet-wachterberg65\|UnetPlusPlus-efficientnet-b7-imagenet-wachterberg65]] | UnetPlusPlus | efficientnet-b7 | 30     | 0.169151  | stkramer   |
 | [[4-archive/cil/project/trained-models/UnetPlusPlus-efficientnet-b7-imagenet\|UnetPlusPlus-efficientnet-b7-imagenet]]                             | UnetPlusPlus | efficientnet-b7 | 30     | 0.169151  | siwachte   |
+| [[4-archive/cil/project/trained-models/UnetPlusPlus-efficientnet-b7-imagenet-wachterberg65\|UnetPlusPlus-efficientnet-b7-imagenet-wachterberg65]] | UnetPlusPlus | efficientnet-b7 | 30     | 0.169151  | stkramer   |
 
 { .block-language-dataview}

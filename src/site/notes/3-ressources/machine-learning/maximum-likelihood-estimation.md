@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/3-ressources/machine-learning/maximum-likelihood-estimation/","tags":["math/machine-learning, eth/cil/theory"],"created":"","updated":""}
+{"dg-publish":true,"permalink":"/3-ressources/machine-learning/maximum-likelihood-estimation/","tags":["computer-science/machine-learning, eth/cil/theory"],"created":"","updated":""}
 ---
 
 # Maximum Likelihood Estimation

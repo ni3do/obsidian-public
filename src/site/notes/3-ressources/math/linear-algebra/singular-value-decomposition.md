@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/3-ressources/math/linear-algebra/singular-value-decomposition/","tags":["knowledge/math"],"created":"","updated":""}
+{"dg-publish":true,"permalink":"/3-ressources/math/linear-algebra/singular-value-decomposition/","tags":["math"],"created":"","updated":""}
 ---
 
 # [[3-ressources/math/linear-algebra/singular-value-decomposition\| Singular Value Decomposition]]
